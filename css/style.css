@@ -1,0 +1,188 @@
+/* .box {
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box:hover {
+    background-color: green;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+
+  .box2 {
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box2:hover {
+    background-color: green;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    width: 500px;
+    transition: width 2s ease-out;
+  } */
+
+
+.carousel-item img{
+  width: 80px;
+  height: 657px;
+  object-fit: cover;
+  border: 5px solid rgb(57, 57, 60);
+ 
+}
+.navbar-brand h1 {
+  color: rgb(0, 0, 0);
+  font-family:;
+}
+.container-fluid{
+  background-color: rgb(70, 70, 80);
+  padding-top:0px ;
+  padding-bottom: 0px;
+}
+.spacing{
+  margin-bottom: 100px;
+}
+.img8{
+  width:500px;
+  height: 350px;
+}
+.img9{
+  width:370px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+.hover-button {
+  background-color: white; /* Initial button color */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px ;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.hover-button:hover {
+  background-color: rgb(98, 95, 95); /* Change button color on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+}
+.cards12{
+  padding-top: 50px;
+  padding-left: 30px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 15px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.button {
+  background-color: rgb(176, 167, 167);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.faculty-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  border-left: 4px solid #fff;
+  padding-left: 10px;
+}
+
+blockquote p {
+  margin: 0 0 10px 0;
+}
+
+blockquote footer {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 10px;
+}
